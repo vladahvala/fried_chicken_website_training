@@ -18,14 +18,79 @@
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <img src="assets/img/logo.svg" alt="image">
+               <span>Fried<br>Chicken</span> 
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link">HOME</a>
+                  </li>
+                  <li>
+                     <a href="#about" class="nav__link">ABOUT US</a>
+                  </li>
+                  <li>
+                     <a href="#order" class="nav__link">ORDERS</a>
+                  </li>
+                  <li>
+                     <a href="#combo" class="nav__link">COMBO</a>
+                  </li>
+                  <li>
+                     <a href="#contact" class="nav__link">CONTACT</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-2-fill"></i>
+             </div>
+         </nav>
+
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Crispy & <br> 
+                     Tasty <span>Fried</span> <br> 
+                     <span>Chicken</span> 
+                  </h1>
+
+                  <p class="home__description">
+                     Come enjoy the best and crispiest fried 
+                     chicken made with the best ingredients, 
+                     one bite and you'll want more.
+                  </p>
+
+                  <a href="#about" class="button">
+                     About Fried Chicken
+                  </a>
+
+                  <img src="assets/img/chicken-dam-1.png" alt="image" class="home__dam-1">
+                  <img src="assets/img/chicken-dam-5.png" alt="image" class="home__dam-2">
+               </div>
+
+               <div class="home__images">
+                  <img src="assets/img/home-img.png" alt="image" class="home__img">
+
+                  <img src="assets/img/chicken-dam-1.png" alt="image" class="home__dam-3">
+                  <img src="assets/img/chicken-dam-2.png" alt="image" class="home__dam-4">
+                  <img src="assets/img/chicken-dam-4.png" alt="image" class="home__dam-5">
+               </div>
+            </div>
          </section>
 
          <!--==================== ABOUT ====================-->
